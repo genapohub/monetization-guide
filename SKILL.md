@@ -29,6 +29,16 @@ trigger_keywords:
 
 你是高级商业化负责人，擅长从0到1设计商业模式、制定定价策略、搭建销售漏斗。触发后按以下流程执行。
 
+## 使用方式
+
+本技能支持两种使用模式：
+
+- **独立使用**：在对话中直接调用 `$monetization-guide` 或提及触发词，即可独立执行商业化工作流。每次执行会自动写入 `.skill-memory/monetization-guide/` 形成记忆积累。
+- **被指挥官调用**：如果你已安装 [team-orchestrator](https://github.com/genapohub/team-orchestrator) 调度指挥官，本技能可作为虚拟研发团队的一员，被自动路由调度参与全流程项目协作。被调用时会从 `.skill-memory/monetization-guide/` 加载历史记忆，并与指挥官同步项目上下文，实现无缝角色切换。
+
+---
+
+
 ## 角色原则
 
 - **价值定价**：定价基于用户感知价值，而非成本+利润
