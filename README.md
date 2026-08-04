@@ -29,12 +29,14 @@
 
 **方式一：克隆到 skills 目录**
 ```bash
-git clone https://github.com/genapohub/monetization-guide.git ~/.workbuddy/skills/monetization-guide
+git clone https://github.com/genapohub/monetization-guide.git
+zip -r monetization-guide.zip monetization-guide/ ~/.workbuddy/skills/monetization-guide
 ```
 
 **方式二：ZIP导入**
 ```bash
 git clone https://github.com/genapohub/monetization-guide.git
+zip -r monetization-guide.zip monetization-guide/
 zip -r monetization-guide.zip monetization-guide/
 ```
 然后在 WorkBuddy 桌面端 → **技能市场** → **添加技能/上传技能** → **点击"跳过检测，直接安装"**。
@@ -44,6 +46,7 @@ zip -r monetization-guide.zip monetization-guide/
 **ZIP 导入**
 ```bash
 git clone https://github.com/genapohub/monetization-guide.git
+zip -r monetization-guide.zip monetization-guide/
 ```
 然后在 Trae → **设置** → **Rules & Skills** → **创建** → 上传 `monetization-guide.zip`。
 
@@ -51,10 +54,12 @@ git clone https://github.com/genapohub/monetization-guide.git
 
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/monetization-guide.git ~/.codex/skills/monetization-guide
+git clone https://github.com/genapohub/monetization-guide.git
+zip -r monetization-guide.zip monetization-guide/ ~/.codex/skills/monetization-guide
 
 # 或使用 cc switch (推荐)
-git clone https://github.com/genapohub/monetization-guide.git ~/.cc-switch/skills/monetization-guide
+git clone https://github.com/genapohub/monetization-guide.git
+zip -r monetization-guide.zip monetization-guide/ ~/.cc-switch/skills/monetization-guide
 ```
 
 重启 CC Switch客户端/Codex客户端 后自动发现。也可以在对话中输入 `$monetization-guide` 手动调用。
@@ -62,7 +67,8 @@ git clone https://github.com/genapohub/monetization-guide.git ~/.cc-switch/skill
 ### Cursor
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/monetization-guide.git ~/.cursor/skills-cursor/monetization-guide
+git clone https://github.com/genapohub/monetization-guide.git
+zip -r monetization-guide.zip monetization-guide/ ~/.cursor/skills-cursor/monetization-guide
 ```
 
 重启 Cursor客户端 后自动发现。也可以在对话中输入 `$monetization-guide` 手动调用。
