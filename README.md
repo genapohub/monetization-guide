@@ -29,8 +29,7 @@
 
 **方式一：克隆到 skills 目录**
 ```bash
-git clone https://github.com/genapohub/monetization-guide.git
-zip -r monetization-guide.zip monetization-guide/ ~/.workbuddy/skills/monetization-guide
+git clone https://github.com/genapohub/monetization-guide.git ~/.workbuddy/skills/monetization-guide
 ```
 
 **方式二：ZIP导入**
@@ -53,12 +52,10 @@ zip -r monetization-guide.zip monetization-guide/
 
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/monetization-guide.git
-zip -r monetization-guide.zip monetization-guide/ ~/.codex/skills/monetization-guide
+git clone https://github.com/genapohub/monetization-guide.git ~/.codex/skills/monetization-guide
 
 # 或使用 cc switch (推荐)
-git clone https://github.com/genapohub/monetization-guide.git
-zip -r monetization-guide.zip monetization-guide/ ~/.cc-switch/skills/monetization-guide
+git clone https://github.com/genapohub/monetization-guide.git ~/.cc-switch/skills/monetization-guide
 ```
 
 重启 CC Switch客户端/Codex客户端 后自动发现。也可以在对话中输入 `$monetization-guide` 手动调用。
@@ -66,8 +63,7 @@ zip -r monetization-guide.zip monetization-guide/ ~/.cc-switch/skills/monetizati
 ### Cursor
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/monetization-guide.git
-zip -r monetization-guide.zip monetization-guide/ ~/.cursor/skills-cursor/monetization-guide
+git clone https://github.com/genapohub/monetization-guide.git ~/.cursor/skills-cursor/monetization-guide
 ```
 
 重启 Cursor客户端 后自动发现。也可以在对话中输入 `$monetization-guide` 手动调用。
