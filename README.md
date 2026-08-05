@@ -32,13 +32,6 @@
 git clone https://github.com/genapohub/monetization-guide.git ~/.workbuddy/skills/monetization-guide
 ```
 
-**方式二：ZIP导入**
-```bash
-git clone https://github.com/genapohub/monetization-guide.git
-zip -r monetization-guide.zip monetization-guide/
-```
-然后在 WorkBuddy 桌面端 → **技能市场** → **添加技能/上传技能** → **点击"跳过检测，直接安装"**。
-
 ### Trae
 
 **ZIP 导入**
